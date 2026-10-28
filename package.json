@@ -1,0 +1,22 @@
+{
+  "name": "7-bites-cafe",
+  "version": "1.0.0",
+  "description": "7 Bites Cafe website with menu, cart, table booking, and customer login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.7.0",
+    "connect-sqlite3": "^0.9.15",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true,
+    "sqlite3": true
+  }
+}
